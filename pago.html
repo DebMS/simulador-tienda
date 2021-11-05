@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productos | Clothing Store</title>
+
+    <script
+      src="https://kit.fontawesome.com/df59baf6b8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- ************************************* -->
+
+    <header>
+      <div class="logo__text">
+        <p class="nav__logo">Indumentaria Deportiva</p>
+      </div>
+    </header>
+    <main>
+      <div class="response-pago none">Compra Exitosa!</div>
+      <!-- FORMULARIO DE PAGO -->
+      <form class="form-pago">
+        <p>
+          <label for="nombre">Nombre</label>
+          <input
+            type="text"
+            required
+            pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+            title="El campo 'Nombre' solo acepta letras y espacios en blanco."
+            name="name"
+            id="nombre"
+          />
+        </p>
+        <p>
+          <label for="apellido">Apellido</label>
+          <input
+            type="text"
+            title="El campo 'Apellido' solo acepta letras y espacios en blanco."
+            required
+            pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+            name="lastname"
+            id="apellido"
+          />
+        </p>
+        <p>
+          <label for="correo">Email</label>
+          <input
+            type="email"
+            title="El campo 'E-mail' es incorrecto."
+            required
+            pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"
+            name="Email"
+            id="correo"
+          />
+        </p>
+        <label for="form__tarjeta">Metodo de pago</label>
+        <select
+          name="tarjeta"
+          required
+          title="Debe elegir un metodo de pago para realizar la compra."
+          id="form__tarjeta"
+        >
+          <option class="form__option" value="Mastercard">Mastercard</option>
+          <option class="form__option" value="Visa">Visa</option>
+          <option class="form__option" value="Mercado Pago">
+            Mercado Pago
+          </option>
+        </select>
+        <p>
+          <label for="numeroTarjeta">Ingrese su tarjeta</label>
+          <input
+            required
+            title="Debe colocar el numero de tarjeta de 16 digitos"
+            pattern="^.{16}$"
+            type="number"
+            name="cardNumber"
+            id="numeroTarjeta"
+          />
+        </p>
+        <p>
+          <label for="ultimosNumeros">Ingrese 3 últimos digitos</label>
+          <input
+            type="number"
+            required
+            title="Debe poner los 3 digitos que se encuentran en la parte trasera de la tarjeta"
+            pattern="^.{3}$"
+            name="lastNumber"
+            id="ultimosNumeros"
+          />
+        </p>
+        <p>
+          <label for="state">Provincia</label>
+          <input
+            type="text"
+            required
+            title="El campo Provincia solo acepta letras y espacios en blanco."
+            pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+            name="provincia"
+            id="state"
+          />
+        </p>
+        <p>
+          <label for="direccion">Dirección</label>
+          <input
+            type="text"
+            required
+            title="El campo 'Dirección' es requerido."
+            name="address"
+            id="direccion"
+          />
+        </p>
+        <p>
+          <input
+            type="submit"
+            name="button"
+            id="boton"
+            class="btn-form-pagar waves-effect waves-light btn-small"
+            value="Completar Pago"
+          />
+          <a
+            class="btn-volver waves-effect waves-light btn-small"
+            href="./index.html"
+            >Volver a la Tienda</a
+          >
+          <img
+            class="form-loader none"
+            src="media/rings.svg"
+            alt="Loading..."
+          />
+        </p>
+      </form>
+    </main>
+    <footer>
+      <div class="contenedor__footer center">
+        <ul class="footer__social-icons">
+          <li>
+            <a href="#"><i class="fab fa-fw fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-fw fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-fw fa-whatsapp"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-fw fa-twitter"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/4472b2f81e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="form_validation.js"></script>
+    <script src="app.js"></script>
+    <script src="animacion.js"></script>
+  </body>
+</html>

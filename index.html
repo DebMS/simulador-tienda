@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productos | Clothing Store</title>
+
+    <script
+      src="https://kit.fontawesome.com/df59baf6b8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- ************************************* -->
+
+    <header>
+      <div class="logo__text">
+        <p class="nav__logo">Indumentaria Deportiva</p>
+      </div>
+      <button id="boton-carrito">
+        <i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span>
+      </button>
+    </header>
+
+    <!-- CARRUSEL -->
+
+    <div id="slideshow-principal">
+      <div id="progress-bar-container">
+        <div id="progress-bar"></div>
+      </div>
+      <div id="slideshow">
+        <img src="" alt="" id="img1" />
+        <img src="" alt="" id="img2" />
+      </div>
+      <div id="indicadores"></div>
+    </div>
+    <!-- SELECTOR DE TALLES -->
+    <select id="selecTipo">
+      <option value="all" class="selectorTodos">Todos</option>
+      <option class="productosSeleccionados" value="Remera">Remeras</option>
+      <option class="productosSeleccionados" value="Pantalon">
+        Pantalones
+      </option>
+      <option class="productosSeleccionados" value="Zapatillas">
+        Zapatillas
+      </option>
+    </select>
+
+    <main id="contenedor-productos"></main>
+
+    <div class="modal-contenedor">
+      <div class="modal-carrito">
+        <h3>Carrito</h3>
+        <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+        <div id="carrito-contenedor"></div>
+        <p class="precioProducto">
+          Precio total: $<span id="precioTotal"></span>
+        </p>
+        <a
+          class="btn-compra waves-effect waves-light btn-small"
+          href="pago.html"
+          >Completar Compra</a
+        >
+      </div>
+    </div>
+    <!-- FORMULARIO -->
+
+    <div id="inicio">
+      <p id="abierto">Contactate con nosotros</p>
+      <form>
+        <p>
+          <label for="username">Nombre</label>
+          <input type="text" name="username" id="usuario" />
+        </p>
+
+        <p>
+          <label for="Email">Email</label>
+          <input type="text" name="Email" id="Email" />
+        </p>
+        <label for="message">Consulta</label>
+        <textarea name="message" id="message"></textarea>
+        <p>
+          <input type="submit" name="button" id="boton" value="Enviar" />
+        </p>
+      </form>
+    </div>
+    <footer>
+      <div class="contenedor__footer center">
+        <ul class="footer__social-icons">
+          <li>
+            <a href="#"><i class="fab fa-fw fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-fw fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-fw fa-whatsapp"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-fw fa-twitter"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/4472b2f81e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="modal.js"></script>
+    <script src="app.js"></script>
+    <script src="animacion.js"></script>
+    <script src="carrusel.js"></script>
+  </body>
+</html>

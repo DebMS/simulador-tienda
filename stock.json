@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "nombre": "Remera Puma",
+    "tipo": "Remera",
+    "desc": "Esta remera para hombre es perfecta para el día a día, y gracias a sus tejidos ligeros y transpirables es también ideal para cualquier conjunto deportivo.",
+    "precio": 1000,
+    "talle": "L",
+    "img": "./media/remera-corta.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 2,
+    "nombre": "Remera Puma",
+    "tipo": "Remera",
+    "desc": "Esta remera para hombre es perfecta para el día a día, y gracias a sus tejidos ligeros y transpirables es también ideal para cualquier conjunto deportivo.",
+    "precio": 1100,
+    "talle": "L",
+    "img": "./media/remera-puma.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 3,
+    "nombre": "Remera Polo",
+    "tipo": "Remera",
+    "desc": "Las remeras polo son una de las soluciones creadas para combinar de manera muy efectiva la formalidad y la comodidad. Se tratan de una especie de camisa de manga corta pero que tienen un cuello que les da un toque lleno de elegancia",
+    "precio": 6200,
+    "talle": "M",
+    "img": "./media/polo.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 4,
+    "nombre": "Joggin hombre",
+    "tipo": "Pantalon",
+    "desc": "Comodidad y estilo se unen en estos pantalones deportivos informales de la colección Classics. Presentan un corte de pierna ceñida y bajos elásticos, y están elaborados con puro algodón prémium de la Better Cotton Initiative.",
+    "precio": 4500,
+    "talle": "L",
+    "img": "./media/pantalon-hombre.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 5,
+    "nombre": "Pantalon Nike",
+    "tipo": "Pantalon",
+    "desc": "Lo práctico no tiene por qué ser aburrido. Gracias a sus atrevidos bloques, estos pantalones de training destacan entre la multitud.",
+    "precio": 2300,
+    "talle": "S",
+    "img": "./media/pantalon-deportivo.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 6,
+    "nombre": "Zapatillas White",
+    "tipo": "Zapatillas",
+    "desc": "De la cancha de baloncesto al aula. Todos merecemos disfrutar de la adidas Superstar. Esta versión, de la moda urbana rinde homenaje al 50 aniversario del mítico modelo de la puntera de goma. Su silueta incluye las 3 Rayas dentadas y una cómoda suela de goma cosida.",
+    "precio": 8000,
+    "talle": "43",
+    "img": "./media/zapatillas-blanca.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 7,
+    "nombre": "Zapatillas Gray",
+    "tipo": "Zapatillas",
+    "desc": "De la cancha de baloncesto al aula. Todos merecemos disfrutar de la adidas Superstar. Esta versión, de la moda urbana rinde homenaje al 50 aniversario del mítico modelo de la puntera de goma. Su silueta incluye las 3 Rayas dentadas y una cómoda suela de goma cosida",
+    "precio": 5500,
+    "talle": "45",
+    "img": "./media/zapatillas-gris.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 8,
+    "nombre": "Zapatillas Rx",
+    "tipo": "Zapatillas",
+    "desc": "De la cancha de baloncesto al aula. Todos merecemos disfrutar de la adidas Superstar. Esta versión, de la moda urbana rinde homenaje al 50 aniversario del mítico modelo de la puntera de goma. Su silueta incluye las 3 Rayas dentadas y una cómoda suela de goma cosida",
+    "precio": 6500,
+    "talle": "40",
+    "img": "./media/zapatillas-deportivas.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 9,
+    "nombre": "Zapatillas",
+    "tipo": "Zapatillas",
+    "desc": "De la cancha de baloncesto al aula. Todos merecemos disfrutar de la adidas Superstar. Esta versión, de la moda urbana rinde homenaje al 50 aniversario del mítico modelo de la puntera de goma. Su silueta incluye las 3 Rayas dentadas y una cómoda suela de goma cosida",
+    "precio": 7500,
+    "talle": "35",
+    "img": "./media/zapatillas-naranja.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 10,
+    "nombre": "Zapatillas Hrx",
+    "tipo": "Zapatillas",
+    "desc": "De la cancha de baloncesto al aula. Todos merecemos disfrutar de la adidas Superstar. Esta versión, de la moda urbana rinde homenaje al 50 aniversario del mítico modelo de la puntera de goma. Su silueta incluye las 3 Rayas dentadas y una cómoda suela de goma cosida",
+    "precio": 7000,
+    "talle": "38",
+    "img": "./media/zapatillas-negra.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 11,
+    "nombre": "Zapatillas Skate",
+    "tipo": "Zapatillas",
+    "desc": "De la cancha de baloncesto al aula. Todos merecemos disfrutar de la adidas Superstar. Esta versión, de la moda urbana rinde homenaje al 50 aniversario del mítico modelo de la puntera de goma. Su silueta incluye las 3 Rayas dentadas y una cómoda suela de goma cosida",
+    "precio": 2500,
+    "talle": "42",
+    "img": "./media/zapatillas-botas.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 12,
+    "nombre": "Pantalon",
+    "tipo": "Pantalon",
+    "desc": "Comodidad y estilo se unen en estos pantalones deportivos informales de la colección Classics. Presentan un corte de pierna ceñida y bajos elásticos, y están elaborados con puro algodón prémium de la Better Cotton Initiative.",
+    "precio": 4500,
+    "talle": "M",
+    "img": "./media/pantalon-puma.jpg",
+    "cantidad": 1
+  }
+]

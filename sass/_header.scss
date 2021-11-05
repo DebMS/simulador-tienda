@@ -1,0 +1,92 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  box-shadow: 0px 5px 4px 3px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  background-color: $secondColor;
+  .logo__text {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    color: $colorWhite;
+    font-family: "Bebas Neue", cursive;
+    font-size: xx-large;
+    text-align: center;
+  }
+}
+
+.bar-btn {
+  font-size: 3.6rem;
+  cursor: pointer;
+  align-items: center;
+  color: $colorWhite;
+}
+.nav__menu {
+  position: fixed;
+  width: 100%;
+  // height: 0;
+  // top: 100px;
+  background: $secondColor;
+  text-align: center;
+  transition: all 0.5s;
+  li {
+    display: none;
+    line-height: 2rem;
+    margin: 3rem 0;
+    transition: all 0.5s;
+    a {
+      color: white;
+      font-size: 1em;
+      text-transform: uppercase;
+      font-weight: 600;
+      &.active {
+        color: $thirdColor;
+        transition: 0.3s;
+      }
+      &:hover {
+        color: $thirdColor;
+        transition: 0.3s;
+      }
+    }
+  }
+}
+#check {
+  display: none;
+  &:checked ~ .nav__menu {
+    height: 100vh;
+    li {
+      display: block;
+    }
+  }
+}
+// @media screen and (min-width: 768px) {
+//   nav {
+//     height: 6.5rem;
+//   }
+//   .bar-btn {
+//     display: none;
+//   }
+//   .nav__menu {
+//     position: relative;
+//     font-size: 1.2em;
+//     width: 100%;
+//     height: 6rem;
+//     top: 0;
+//     background: none;
+//     transition: none;
+//     text-align: center;
+//     li {
+//       display: inline-block;
+//       line-height: 6.5rem;
+//       margin: 0 1.2rem;
+//       transition: none;
+//       a {
+//         font-size: 1em;
+//         color: $colorWhite;
+//       }
+//     }
+//   }
+// }
